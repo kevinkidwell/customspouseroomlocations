@@ -41,18 +41,16 @@ This mod has been updated to be compatible with the following mods:
 - [Seasonal Garden Farmhouse v2](https://www.nexusmods.com/stardewvalley/mods/17386)
 - [Lune FarmHouse](https://www.nexusmods.com/stardewvalley/mods/17627)
 - [Aimon's Tidy Cozy Farmhouse](https://www.nexusmods.com/stardewvalley/mods/16438)
-
-Compatibility work in progress for the following mods, will be released when ready:
 - [Aimon's Fancy Farmhouse](https://www.nexusmods.com/stardewvalley/mods/14411)
 
 **----------------------------------------**
 
 ## How to Edit:
 
-   1. Open the [PSR] Custom Spouse Room Locations folder
-   2. Find the example-content.json file
-   3. Duplicate that file and rename it content.json
-   4. Follow the information provided here for the different variables, placement information, and examples.
+1. Open the [PSR] Custom Spouse Room Locations folder
+2. Find the example-content.json file
+3. Duplicate that file and rename it content.json
+4. Follow the information provided here for the different variables, placement information, and examples.
 
 **General information:**
     1. All spouse rooms are 7 blocks wide (X) and 12 blocks tall (Y)

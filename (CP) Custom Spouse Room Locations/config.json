@@ -1,6 +1,10 @@
 {
-  "Lower": "left",
+  "Lower": "false",
+  "Lower location": "both",
+  "Lower left count": "0",
   "Upper": "false",
-  "Lower left count": "1",
-  "Wall": "true"
+  "Wall": "false",
+  "Seasonal Garden Farmhouse v2": "true",
+  "SGF Main Floor Room Location": "both",
+  "SGF Upper Floor Room Location": "both"
 }

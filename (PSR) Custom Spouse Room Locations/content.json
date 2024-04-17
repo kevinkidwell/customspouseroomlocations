@@ -1,8 +1,26 @@
 {
 	"data": [
-		// Top Level
+
+		/*****************\
+		EDITING INFORMATION
+			1. All spouse rooms are 7 blocks wide (X) and 12 blocks tall (Y)
+			2. Templated data shows the starter placement for each location that you can place a room
+			3. If you are using farmhouse mods, look for that section to see the starting positions for your specific modded room locations
+			4. Remove or comment out any unused placements
+
+			All placements have this layout for informational purposes:
+				// Mod name or vanilla
+				// The location of this room, corresponds to config
+				// How many rooms you can place in this location
+				// Shell templates you can use here
+		\*****************/
+
+		// VANILLA
+		// UPPER
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
 		{
-			"name": "Alex",
+			"name": "Sam",
 			"startPos": {
 				"X": 68,
 				"Y": 2
@@ -11,118 +29,13 @@
 				"X": 3,
 				"Y": 3
 			},
-			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Sam",
-			"startPos": {
-				"X": 75,
-				"Y": 2
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Wizard",
-			"startPos": {
-				"X": 82,
-				"Y": 2
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
 			"shellType": "custom_spouse_room_closed_right",
 		},
-		// Lower Level Right
-		{
-			"name": "Victor",
-			"startPos": {
-				"X": 48,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Harvey",
-			"startPos": {
-				"X": 55,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Ian",
-			"startPos": {
-				"X": 62,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Shiro",
-			"startPos": {
-				"X": 69,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Elliott",
-			"startPos": {
-				"X": 76,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_closed_right",
-		},
-		{
-			"name": "Jeric",
-			"startPos": {
-				"X": 83,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Kenneth",
-			"startPos": {
-				"X": 90,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_closed_right",
-		},
-		// Lower Level Left
+
+		// VANILLA
+		// LOWER - LEFT
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
 		{
 			"name": "Sebastian",
 			"startPos": {
@@ -135,17 +48,90 @@
 			},
 			"shellType": "custom_spouse_room_open_left",
 		},
+
+		// VANILLA
+		// LOWER - RIGHT
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
 		{
-			"name": "Krobus",
+			"name": "Harvey",
 			"startPos": {
-				"X": 23,
+				"X": 48,
 				"Y": 33
 			},
 			"spousePosOffset": {
 				"X": 3,
 				"Y": 3
 			},
+			"shellType": "custom_spouse_room_closed_right",
+		},
+
+		// SEASONAL GARDEN FARMHOUSE V2
+		// MAIN FLOOR - LEFT
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "Emily",
+			"startPos": {
+				"X": 8,
+				"Y": 8
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left"
+		},
+
+		// SEASONAL GARDEN FARMHOUSE V2
+		// MAIN FLOOR - RIGHT
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "Alex",
+			"startPos": {
+				"X": 69,
+				"Y": 21
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
+		},
+
+		// SEASONAL GARDEN FARMHOUSE V2
+		// UPPER FLOOR - ATTIC
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "Haley",
+			"startPos": {
+				"X": 7,
+				"Y": 56
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
 			"shellType": "custom_spouse_room_closed_left",
+		},
+
+		// SEASONAL GARDEN FARMHOUSE V2
+		// UPPER FLOOR - LARGE ROOM
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "Elliott",
+			"startPos": {
+				"X": 69,
+				"Y": 56
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
 		},
 	]
 }

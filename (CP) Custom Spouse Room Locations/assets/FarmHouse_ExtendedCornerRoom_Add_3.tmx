@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="5" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="184">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="5" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="183">
  <properties>
   <property name="FloorIDs" value="UpperRoom 1, Nursery 31, Hallway_Nursery 31, Kitchen, LivingRoom, Hallway_Bedroom, Bedroom, Southern, Hallway_Corner, Corner"/>
   <property name="ViewportFollowPlayer" type="bool" value="true"/>
@@ -32,8 +32,8 @@
 2866,2865,2865,2866,2865,
 2882,2882,2881,2882,2881,
 2866,2866,2865,2866,2865,
-2534,2534,2534,2534,2882,
-2550,2550,2550,2550,2866,
+2882,2881,2882,2881,2882,
+2866,2865,2866,2865,2866,
 2882,2881,2882,2881,2882,
 2866,2865,2866,2865,2866,
 2882,2881,2882,2881,2882,
@@ -48,9 +48,9 @@
 2388,2566,2566,2566,2566,
 2400,0,0,0,0,
 0,0,0,0,0,
-2506,2506,2506,2506,0,
-2506,2506,2506,2506,0,
-2566,2566,2566,2566,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
 0,0,0,0,0,
 0,0,0,0,0,
 0,0,0,0,1
@@ -66,7 +66,7 @@
 0,0,0,0,0,
 0,0,0,0,0,
 0,0,0,0,0,
-2404,2405,2405,2405,0,
+0,0,0,0,0,
 0,0,0,0,0,
 0,0,0,0,166,
 0,0,0,0,0
@@ -80,8 +80,8 @@
 0,0,0,0,0,
 0,0,0,0,0,
 0,0,0,0,0,
-2378,1427,1427,0,0,
-2390,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
 0,0,0,0,0,
 0,0,0,0,0,
 0,0,0,0,3380,
@@ -95,16 +95,16 @@
 0,0,0,0,0,
 0,0,0,0,0,
 0,0,0,0,0,
-164,197,166,197,163,
-2378,1427,1427,1427,3349,
-2390,0,0,0,3349,
-0,0,0,0,3349,
-0,0,0,0,3349,
-0,0,0,0,3236,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
 0,0,0,0,69
 </data>
  </layer>
- <objectgroup id="5" name="Back">
+ <objectgroup id="5" name="Back" visible="0" locked="1">
   <object id="61" name="TileData" x="0" y="128" width="16" height="16">
    <properties>
     <property name="FloorID" value="ExtendedCornerNook"/>
@@ -270,18 +270,59 @@
     <property name="FloorID" value="ExtendedCornerSpouse"/>
    </properties>
   </object>
+  <object id="173" name="TileData" x="64" y="96" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="ExtendedCornerSpouse"/>
+   </properties>
+  </object>
+  <object id="174" name="TileData" x="64" y="112" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="ExtendedCornerSpouse"/>
+   </properties>
+  </object>
+  <object id="175" name="TileData" x="64" y="128" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="ExtendedCornerSpouse"/>
+   </properties>
+  </object>
+  <object id="176" name="TileData" x="64" y="144" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="ExtendedCornerSpouse"/>
+   </properties>
+  </object>
+  <object id="177" name="TileData" x="64" y="160" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="ExtendedCornerSpouse"/>
+   </properties>
+  </object>
   <object id="178" name="TileData" x="0" y="64" width="16" height="16">
    <properties>
     <property name="FloorID" value="ExtendedCornerSpouse"/>
    </properties>
   </object>
-  <object id="183" name="TileData" x="0" y="96" width="64" height="16">
+ </objectgroup>
+ <objectgroup id="6" name="Buildings" visible="0" locked="1"/>
+ <objectgroup id="7" name="Buildings2" visible="0" locked="1">
+  <object id="179" name="TileData" x="0" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="ExtendedCornerNook"/>
+   </properties>
+  </object>
+  <object id="180" name="TileData" x="16" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="ExtendedCornerNook"/>
+   </properties>
+  </object>
+  <object id="181" name="TileData" x="32" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="ExtendedCornerNook"/>
+   </properties>
+  </object>
+  <object id="182" name="TileData" x="48" y="96" width="16" height="16">
    <properties>
     <property name="WallID" value="ExtendedCornerNook"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Buildings"/>
- <objectgroup id="7" name="Buildings2"/>
- <objectgroup id="8" name="Front"/>
+ <objectgroup id="8" name="Front" locked="1"/>
 </map>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="8" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="22">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="8" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="23">
  <properties>
   <property name="DayTiles_asdf" value="Buildings 3 1 15 Buildings 3 2 27 Back 3 4 51 Back 3 5 63"/>
   <property name="FloorIDs" value="SpouseHallway"/>
@@ -8,16 +8,19 @@
   <property name="Warp" value="9 12 Farm 64 15"/>
   <property name="asdf" type="bool" value="false"/>
  </properties>
- <tileset firstgid="1" name="sewer" tilewidth="16" tileheight="16" tilecount="88" columns="8">
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source=".townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="sewer" tilewidth="16" tileheight="16" tilecount="88" columns="8">
   <image source=".SewerTiles.png" width="128" height="176"/>
  </tileset>
- <tileset firstgid="89" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+ <tileset firstgid="2265" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="264" columns="12">
   <image source=".farmhouse_tiles.png" width="192" height="352"/>
  </tileset>
- <tileset firstgid="353" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+ <tileset firstgid="2529" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
   <image source=".walls_and_floors.png" width="256" height="688"/>
  </tileset>
- <tileset firstgid="1041" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+ <tileset firstgid="3217" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source=".townInterior" width="512" height="1088"/>
  </tileset>
  <layer id="1" name="Back" width="8" height="12">
@@ -25,35 +28,37 @@
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
-1272,1273,1272,1273,1272,1273,1272,0,
-1240,1241,1240,1241,1240,1241,1240,0,
-1272,1273,1272,1273,1272,1273,1272,0,
-1304,1305,1304,1305,1304,1305,1304,0,
-1272,1273,1272,1273,1272,1273,1272,0,
-1304,1305,1304,1305,1304,1305,1304,0,
-1272,1273,1272,1273,1272,1273,1272,0,
-1304,1305,1304,1305,1304,1305,1304,0,
+3448,3449,3448,3449,3448,3449,3448,69,
+3416,3417,3416,3417,3416,3417,3416,69,
+3448,3449,3448,3449,3448,3449,3448,69,
+3480,3481,3480,3481,3480,3481,3480,69,
+3448,3449,3448,3449,3448,3449,3448,69,
+3480,3481,3480,3481,3480,3481,3480,69,
+3448,3449,3448,3449,3448,3449,3448,69,
+3480,3481,3480,3481,3480,3481,3480,168,
 0,0,0,0,0,0,0,0
 </data>
  </layer>
  <layer id="2" name="Buildings" width="8" height="12">
   <data encoding="csv">
-176,1043,1043,1043,1043,1043,1043,0,
-188,1075,1075,1075,1075,1075,1075,0,
-200,1107,1107,1107,1107,1107,1107,0,
-212,1139,1139,1139,1139,1139,1139,0,
-224,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,
-331,331,331,331,331,331,331,0
+3,3,3,3,3,3,11,12,
+35,35,35,35,35,35,35,69,
+67,67,67,67,67,67,67,69,
+99,99,99,99,99,99,99,69,
+0,0,0,0,0,0,0,69,
+0,0,0,0,0,0,0,69,
+0,0,0,0,0,0,0,69,
+0,0,0,0,0,0,0,69,
+0,0,0,0,0,0,0,69,
+0,0,0,0,0,0,0,69,
+0,0,0,0,0,0,2517,168,
+2507,2507,2507,2507,2507,2507,2507,2507
 </data>
  </layer>
  <layer id="3" name="Front" width="8" height="12">
   <data encoding="csv">
+0,3,3,3,3,3,0,0,
+0,1427,1427,1427,1427,1427,1427,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
@@ -62,9 +67,7 @@
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,
-1237,1237,1237,1237,1237,1237,1237,0,
+166,166,166,166,166,166,167,0,
 0,0,0,0,0,0,0,0
 </data>
  </layer>
@@ -74,22 +77,17 @@
     <property name="NoFurniture" value="T"/>
    </properties>
   </object>
-  <object id="9" name="TileData" x="0" y="64" width="16" height="16">
+  <object id="10" name="TileData" x="0" y="64" width="16" height="16">
    <properties>
     <property name="FloorID" value="SpouseHallway"/>
    </properties>
   </object>
-  <object id="10" name="TileData" x="0" y="80" width="16" height="16">
+  <object id="11" name="TileData" x="0" y="80" width="16" height="16">
    <properties>
     <property name="FloorID" value="SpouseHallway"/>
    </properties>
   </object>
-  <object id="11" name="TileData" x="0" y="96" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="SpouseHallway"/>
-   </properties>
-  </object>
-  <object id="12" name="TileData" x="0" y="112" width="16" height="16">
+  <object id="12" name="TileData" x="0" y="96" width="16" height="16">
    <properties>
     <property name="FloorID" value="SpouseHallway"/>
    </properties>
@@ -99,22 +97,22 @@
     <property name="FloorID" value="SpouseHallway"/>
    </properties>
   </object>
-  <object id="14" name="TileData" x="0" y="144" width="16" height="16">
+  <object id="14" name="TileData" x="0" y="112" width="16" height="16">
    <properties>
     <property name="FloorID" value="SpouseHallway"/>
    </properties>
   </object>
-  <object id="15" name="TileData" x="0" y="160" width="16" height="16">
+  <object id="15" name="TileData" x="0" y="144" width="16" height="16">
    <properties>
     <property name="FloorID" value="SpouseHallway"/>
    </properties>
   </object>
-  <object id="16" name="TileData" x="16" y="160" width="16" height="16">
+  <object id="16" name="TileData" x="0" y="160" width="16" height="16">
    <properties>
     <property name="FloorID" value="SpouseHallway"/>
    </properties>
   </object>
-  <object id="17" name="TileData" x="32" y="160" width="16" height="16">
+  <object id="17" name="TileData" x="16" y="160" width="16" height="16">
    <properties>
     <property name="FloorID" value="SpouseHallway"/>
    </properties>
@@ -124,7 +122,7 @@
     <property name="FloorID" value="SpouseHallway"/>
    </properties>
   </object>
-  <object id="19" name="TileData" x="80" y="160" width="16" height="16">
+  <object id="19" name="TileData" x="32" y="160" width="16" height="16">
    <properties>
     <property name="FloorID" value="SpouseHallway"/>
    </properties>
@@ -134,12 +132,17 @@
     <property name="FloorID" value="SpouseHallway"/>
    </properties>
   </object>
-  <object id="21" name="TileData" x="96" y="160" width="16" height="16">
+  <object id="21" name="TileData" x="80" y="160" width="16" height="16">
+   <properties>
+    <property name="FloorID" value="SpouseHallway"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="96" y="160" width="16" height="16">
    <properties>
     <property name="FloorID" value="SpouseHallway"/>
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="5" name="Buildings"/>
- <objectgroup id="6" name="Front"/>
+ <objectgroup id="5" name="Buildings" locked="1"/>
+ <objectgroup id="6" name="Front" locked="1"/>
 </map>

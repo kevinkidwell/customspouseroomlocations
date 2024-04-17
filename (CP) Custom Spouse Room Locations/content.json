@@ -27,6 +27,12 @@
             "Default": false,
             "Section": "Vanilla Settings"
         },
+        "Remove Upper Room Nook": {
+            "Description": "Do you want to remove the nook from the expanded corner room?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "Vanilla Settings"
+        },
         "Wall": {
             "Description": "Fix the upper wall connection with default spouse room location?",
             "AllowValues": "true, false",
@@ -79,7 +85,7 @@
             "Default": false,
             "Section": "LNH Compatibility"
         },
-        "SGF Southeast Room Left": {
+        "LNH Southeast Room Left": {
             "Description": "Where do you want your rooms to go on the left side of the Southeast Room?",
             "AllowValues": "upper left, lower left, both, none",
             "Default": "both",
@@ -111,6 +117,26 @@
             "Default": "both",
             "Section": "Lune Compatibility"
         },
+
+        // AIMON'S TIDY COZY FARMHOUSE
+        "Aimon's Tidy Cozy Farmhouse (ATC)": {
+            "Description": "Are you using Aimon's Tidy Cozy Farmhouse?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "ATC Compatibility"
+        },
+        "ATC Left Bedroom": {
+            "Description": "Use custom location next to the left bedroom?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "ATC Compatibility"
+        },
+        "ATC Right Bedroom": {
+            "Description": "Use custom location next to the right bedroom?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "ATC Compatibility"
+        },
     },
    "Changes": [
        // Vanilla map edits
@@ -120,6 +146,9 @@
           "FromFile": "assets/custom_spouse_room_closed_left.tmx",
           "When": {
                 "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
           },
           "MapTiles": [
                 {
@@ -170,6 +199,9 @@
           "FromFile": "assets/custom_spouse_room_closed_right.tmx",
           "When": {
                 "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
           },
           "MapTiles": [
                 {
@@ -220,6 +252,9 @@
           "FromFile": "assets/custom_spouse_room_open_left.tmx",
           "When": {
                 "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
           },
           "MapTiles": [
                 {
@@ -250,6 +285,9 @@
           "FromFile": "assets/custom_spouse_room_open_right.tmx",
           "When": {
                 "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
           },
           "MapTiles": [
                 {
@@ -415,6 +453,9 @@
                 "Lower location": "left, both",
                 "Lower left count": "1",
                 "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
           }
        },
        {
@@ -427,6 +468,9 @@
                 "Lower location": "left, both",
                 "Lower left count": "2",
                 "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
           }
        },
        {
@@ -438,6 +482,9 @@
                 "Lower": true,
                 "Lower location": "left, both",
                 "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
           }
        },
        {
@@ -449,6 +496,9 @@
                 "Lower": true,
                 "Lower location": "right, both",
                 "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
           }
        },
        {
@@ -458,6 +508,9 @@
           "ToArea": { "X": 54, "Y": 18, "Width": 10, "Height": 2 },
           "When": {
                 "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
           }
        },
        {
@@ -467,7 +520,25 @@
           "ToArea": { "X": 63, "Y": 2, "Width": 5, "Height": 12 },
           "When": {
                 "Upper": true,
+                "Remove Upper Room Nook": false,
                 "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_ExtendedCornerRoom_Add",
+          "FromFile": "assets/FarmHouse_ExtendedCornerRoom_Add_3.tmx",
+          "ToArea": { "X": 63, "Y": 2, "Width": 5, "Height": 12 },
+          "When": {
+                "Upper": true,
+                "Remove Upper Room Nook": true,
+                "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
           }
        },
        {
@@ -478,6 +549,9 @@
           "When": {
                 "Wall": true,
                 "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
           }
        },
        // Seasonal Garden Farmhouse Compatibility
@@ -591,7 +665,7 @@
           "ToArea": { "X": 18, "Y": 195, "Width": 2, "Height": 12 },
           "When": {
                 "Lnh's First Farmhouse": true,
-                "SGF Southeast Room Left": "upper left, both",
+                "LNH Southeast Room Left": "upper left, both",
           }
        },
        {
@@ -601,7 +675,7 @@
           "ToArea": { "X": 18, "Y": 208, "Width": 2, "Height": 12 },
           "When": {
                 "Lnh's First Farmhouse": true,
-                "SGF Southeast Room Left": "lower left, both",
+                "LNH Southeast Room Left": "lower left, both",
           }
        },
        // Lune Farmhouse Compatibility
@@ -668,6 +742,43 @@
                 "Lune Farmhouse Size": "large",
                 "Lune Right Room Location": "southern room, both",
           }
+       },
+       // Aimon's Tidy Cozy Farmhouse Compatibility
+       {
+          "Action": "EditMap",
+          "Target": "Maps/custom_spouse_room_closed_right",
+          "FromFile": "assets/atc_custom_spouse_room_closed_right.tmx",
+          "When": {
+                "Aimon's Tidy Cozy Farmhouse (ATC)": true,
+          },
+        },
+        {
+          "Action": "EditMap",
+          "Target": "Maps/custom_spouse_room_open_right",
+          "FromFile": "assets/atc_custom_spouse_room_open_right.tmx",
+          "When": {
+                "Aimon's Tidy Cozy Farmhouse (ATC)": true,
+          },
+        },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/atc_FarmHouse2_left.tmx",
+          "ToArea": { "X": 11, "Y": 18, "Width": 5, "Height": 13 },
+          "When": {
+                "Aimon's Tidy Cozy Farmhouse (ATC)": true,
+                "ATC Left Bedroom": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/atc_FarmHouse2_right.tmx",
+          "ToArea": { "X": 44, "Y": 31, "Width": 2, "Height": 12 },
+          "When": {
+                "Aimon's Tidy Cozy Farmhouse (ATC)": true,
+                "ATC Right Bedroom": true,
+          },
        },
    ],
 }

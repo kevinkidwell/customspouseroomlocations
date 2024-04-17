@@ -320,5 +320,39 @@
 			},
 			"shellType": "custom_spouse_room_closed_right",
 		},
+
+		// ATC FARMHOUSE
+		// LEFT BEDROOM
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 7,
+				"Y": 19
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left",
+		},
+
+		// ATC FARMHOUSE
+		// RIGHT BEDROOM
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 46,
+				"Y": 32
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
+		},
 	]
 }

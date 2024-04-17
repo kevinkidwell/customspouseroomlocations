@@ -1,6 +1,6 @@
 {
-  "Lower": "both",
-  "Upper": "true",
-  "Lower left count": "2",
+  "Lower": "left",
+  "Upper": "false",
+  "Lower left count": "1",
   "Wall": "true"
 }

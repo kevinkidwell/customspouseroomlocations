@@ -25,25 +25,25 @@ This mod was inspired by [Split Spouse Rooms](https://www.nexusmods.com/stardewv
 ## Dependencies:
 
 **Required:**
-    [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915)
-    [PolyamorySweet](”https://www.nexusmods.com/stardewvalley/mods/20599”), specifically Polyamory Sweet Rooms
+- [Content Patcher](https://www.nexusmods.com/stardewvalley/mods/1915)
+- [PolyamorySweet](”https://www.nexusmods.com/stardewvalley/mods/20599”), specifically Polyamory Sweet Rooms
 
 **Recommended:**
-    [GMCM](”https://www.nexusmods.com/stardewvalley/mods/5098”) for configuration
-    [PolyamorySweet](”https://www.nexusmods.com/stardewvalley/mods/20599”) for multiple spouses
+- [GMCM](”https://www.nexusmods.com/stardewvalley/mods/5098”) for configuration
+- [PolyamorySweet](”https://www.nexusmods.com/stardewvalley/mods/20599”) for multiple spouses
 
 **----------------------------------------**
 
 ## Compatibility:
 
 This mod has been updated to be compatible with the following mods:
-    [Lnh's First Farmhouse](https://www.nexusmods.com/stardewvalley/mods/17526)
-    [Seasonal Garden Farmhouse v2](https://www.nexusmods.com/stardewvalley/mods/17386)
-    [Lune FarmHouse](https://www.nexusmods.com/stardewvalley/mods/17627)
-    [Aimon's Tidy Cozy Farmhouse](https://www.nexusmods.com/stardewvalley/mods/16438)
+- [Lnh's First Farmhouse](https://www.nexusmods.com/stardewvalley/mods/17526)
+- [Seasonal Garden Farmhouse v2](https://www.nexusmods.com/stardewvalley/mods/17386)
+- [Lune FarmHouse](https://www.nexusmods.com/stardewvalley/mods/17627)
+- [Aimon's Tidy Cozy Farmhouse](https://www.nexusmods.com/stardewvalley/mods/16438)
 
 Compatibility work in progress for the following mods, will be released when ready:
-    [Aimon's Fancy Farmhouse](https://www.nexusmods.com/stardewvalley/mods/14411)
+- [Aimon's Fancy Farmhouse](https://www.nexusmods.com/stardewvalley/mods/14411)
 
 **----------------------------------------**
 
@@ -54,11 +54,11 @@ Compatibility work in progress for the following mods, will be released when rea
    3. Duplicate that file and rename it content.json
    4. Follow the information provided here for the different variables, placement information, and examples.
 
-   **General information:**
-      1. All spouse rooms are 7 blocks wide (X) and 12 blocks tall (Y)
-      2. Templated data shows the starter placement for each location that you can place a room
-      3. If you are using farmhouse mods, look for that section to see the starting positions for your specific modded room locations
-      4. Remove or comment out any unused placements
+    **General information:**
+        1. All spouse rooms are 7 blocks wide (X) and 12 blocks tall (Y)
+        2. Templated data shows the starter placement for each location that you can place a room
+        3. If you are using farmhouse mods, look for that section to see the starting positions for your specific modded room locations
+        4. Remove or comment out any unused placements
 
     **Placement Information:**
         All placements have this layout for informational purposes:
@@ -158,5 +158,5 @@ Compatibility work in progress for the following mods, will be released when rea
 
 ## Get in Touch:
 If you want to get in touch with me with any questions, concerns, suggestions, etc.:
-    Feel free to post in the Discussion tab here
-    Message me on Discord @kevinkidwell or tag me in the SDV Discord
+- Feel free to post in the Discussion tab here
+- Message me on Discord @kevinkidwell or tag me in the SDV Discord

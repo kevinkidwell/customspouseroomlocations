@@ -20,7 +20,7 @@
 		// As many rooms to the right as you want
 		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
 		{
-			"name": "Sam",
+			"name": "SpouseName",
 			"startPos": {
 				"X": 68,
 				"Y": 2
@@ -37,7 +37,7 @@
 		// Up to 2 rooms
 		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
 		{
-			"name": "Sebastian",
+			"name": "SpouseName",
 			"startPos": {
 				"X": 30,
 				"Y": 33
@@ -54,7 +54,7 @@
 		// As many rooms to the right as you want
 		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
 		{
-			"name": "Harvey",
+			"name": "SpouseName",
 			"startPos": {
 				"X": 48,
 				"Y": 33
@@ -71,7 +71,7 @@
 		// Up to 2 rooms
 		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
 		{
-			"name": "Emily",
+			"name": "SpouseName",
 			"startPos": {
 				"X": 8,
 				"Y": 8
@@ -88,7 +88,7 @@
 		// As many rooms to the right as you want
 		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
 		{
-			"name": "Alex",
+			"name": "SpouseName",
 			"startPos": {
 				"X": 69,
 				"Y": 21
@@ -105,7 +105,7 @@
 		// Up to 2 rooms
 		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
 		{
-			"name": "Haley",
+			"name": "SpouseName",
 			"startPos": {
 				"X": 7,
 				"Y": 56
@@ -122,7 +122,7 @@
 		// As many rooms to the right as you want
 		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
 		{
-			"name": "Elliott",
+			"name": "SpouseName",
 			"startPos": {
 				"X": 69,
 				"Y": 56
@@ -139,7 +139,7 @@
 		// As many rooms to the right as you want
 		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
 		{
-			"name": "Shane",
+			"name": "SpouseName",
 			"startPos": {
 				"X": 49,
 				"Y": 0
@@ -156,7 +156,7 @@
 		// As many rooms to the right as you want
 		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
 		{
-			"name": "Abigail",
+			"name": "SpouseName",
 			"startPos": {
 				"X": 50,
 				"Y": 92
@@ -173,7 +173,7 @@
 		// As many rooms to the right as you want
 		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
 		{
-			"name": "Leah",
+			"name": "SpouseName",
 			"startPos": {
 				"X": 39,
 				"Y": 197
@@ -190,7 +190,7 @@
 		// Up to 2 rooms
 		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
 		{
-			"name": "Maru",
+			"name": "SpouseName",
 			"startPos": {
 				"X": 10,
 				"Y": 195
@@ -207,7 +207,7 @@
 		// Up to 2 rooms
 		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
 		{
-			"name": "Penny",
+			"name": "SpouseName",
 			"startPos": {
 				"X": 10,
 				"Y": 208
@@ -217,6 +217,108 @@
 				"Y": 3
 			},
 			"shellType": "custom_spouse_room_closed_left"
+		},
+
+		// LUNE FARMHOUSE
+		// UPPER ROOM
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 7,
+				"Y": 8
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left"
+		},
+
+		// LUNE FARMHOUSE
+		// KITCHEN CELLAR - SMALL
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 7,
+				"Y": 30
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left"
+		},
+
+		// LUNE FARMHOUSE
+		// KITCHEN CELLAR - LARGE
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 7,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left"
+		},
+
+		// LUNE FARMHOUSE
+		// UPPER RIGHT ROOM
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 61,
+				"Y": 8
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
+		},
+
+		// LUNE FARMHOUSE
+		// SOUTHERN ROOM - SMALL
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 58,
+				"Y": 30
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
+		},
+
+		// LUNE FARMHOUSE
+		// SOUTHERN ROOM - LARGE
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 58,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
 		},
 	]
 }

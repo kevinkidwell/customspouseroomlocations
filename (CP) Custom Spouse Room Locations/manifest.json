@@ -1,0 +1,20 @@
+﻿{
+  "Name": "[CP] Custom Spouse Room Locations",
+  "Author": "kevinkidwell",
+  "Version": "1.0.0",
+  "Description": "Edit the map to allow for new spouse room locations",
+  "UniqueID": "kevinkidwell.csrlocations_cp",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "" ],
+  "ContentPackFor":
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.0.0"
+    },
+  "Dependencies": [
+   {
+      "UniqueID": "aedenthorn.CustomSpouseRooms",
+      "IsRequired": true
+   },
+  ]
+}

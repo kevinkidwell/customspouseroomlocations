@@ -1,0 +1,20 @@
+{
+  "Name": "[CSR] Custom Spouse Room Locations",
+  "Author": "kevinkidwell",
+  "Version": "1.0.0",
+  "Description": "Set the location for your custom spouse rooms.",
+  "UniqueID": "kevinkidwell.csrlocations_csr",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "" ],
+  "ContentPackFor":
+    {
+      "UniqueID": "aedenthorn.CustomSpouseRooms",
+      "MinimumVersion": "0.8.3-unofficial.1-FlyingTNT"
+    },
+  "Dependencies": [
+   {
+      "UniqueID": "aedenthorn.CustomSpouseRooms",
+      "IsRequired": true
+   },
+  ]
+}

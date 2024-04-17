@@ -1,0 +1,151 @@
+{
+	"data": [
+		// Top Level
+		{
+			"name": "Alex",
+			"startPos": {
+				"X": 68,
+				"Y": 2
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_open_right",
+		},
+		{
+			"name": "Sam",
+			"startPos": {
+				"X": 75,
+				"Y": 2
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_open_right",
+		},
+		{
+			"name": "Wizard",
+			"startPos": {
+				"X": 82,
+				"Y": 2
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
+		},
+		// Lower Level Right
+		{
+			"name": "Victor",
+			"startPos": {
+				"X": 48,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_open_right",
+		},
+		{
+			"name": "Harvey",
+			"startPos": {
+				"X": 55,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_open_right",
+		},
+		{
+			"name": "Ian",
+			"startPos": {
+				"X": 62,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_open_right",
+		},
+		{
+			"name": "Shiro",
+			"startPos": {
+				"X": 69,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_open_right",
+		},
+		{
+			"name": "Elliott",
+			"startPos": {
+				"X": 76,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
+		},
+		{
+			"name": "Jeric",
+			"startPos": {
+				"X": 83,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_open_right",
+		},
+		{
+			"name": "Kenneth",
+			"startPos": {
+				"X": 90,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
+		},
+		// Lower Level Left
+		{
+			"name": "Sebastian",
+			"startPos": {
+				"X": 30,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_open_left",
+		},
+		{
+			"name": "Krobus",
+			"startPos": {
+				"X": 23,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left",
+		},
+	]
+}

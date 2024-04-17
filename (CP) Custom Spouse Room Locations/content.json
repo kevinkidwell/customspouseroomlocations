@@ -1,0 +1,95 @@
+{
+   "Format": "2.0.0",
+   "ConfigSchema": {
+        "Lower": {
+            "Description": "Where are you placing rooms on the lower level of the house?",
+            "AllowValues": "both, left, right, none",
+            "Default": "both",
+            "Section": "Room Location"
+        },
+        "Upper": {
+            "Description": "Are you placing a spouse room in the upper level of the house?",
+            "AllowValues": "true, false",
+            "Default": true,
+            "Section": "Room Location"
+        },
+        "Lower left count": {
+            "Description": "How many rooms in the lower left?",
+            "AllowValues": "0, 1, 2",
+            "Default": "2",
+            "Section": "Room Count"
+        },
+        "Wall": {
+            "Description": "Fix the upper wall connection with default spouse room location?",
+            "AllowValues": "true, false",
+            "Default": true,
+            "Section": "General Fixes"
+        }
+    },
+   "Changes": [
+       // Edit map files based on location of spouse rooms
+       // Lower left only edits
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_SouthernRoom_Add",
+          "FromFile": "assets/FarmHouse_SouthernRoom_Add_left.tmx",
+          "When": {
+                "Lower": "left"
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_Cubby_Add",
+          "FromFile": "assets/FarmHouse_Cubby_Add_1.tmx",
+          "When": {
+                "Lower": "left, both",
+                "Lower left count": "1"
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_Cubby_Add",
+          "FromFile": "assets/FarmHouse_Cubby_Add_2.tmx",
+          "When": {
+                "Lower": "left, both",
+                "Lower left count": "2"
+          }
+       },
+       // Lower right only edits
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_SouthernRoom_Add",
+          "FromFile": "assets/FarmHouse_SouthernRoom_Add_right.tmx",
+          "When": {
+                "Lower": "right"
+          }
+       },
+       // Lower left AND lower right edits
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_SouthernRoom_Add",
+          "FromFile": "assets/FarmHouse_SouthernRoom_Add.tmx",
+          "When": {
+                "Lower": "both"
+          }
+       },
+       // Upper only edits
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_ExtendedCornerRoom_Add",
+          "FromFile": "assets/FarmHouse_ExtendedCornerRoom_Add_1.tmx",
+          "When": {
+                "Upper": true,
+          }
+       },
+       // General fixes edits
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_CornerRoom_Add",
+          "FromFile": "assets/FarmHouse_CornerRoom_Add.tmx",
+          "When": {
+                "Wall": true
+          }
+       },
+   ],
+}

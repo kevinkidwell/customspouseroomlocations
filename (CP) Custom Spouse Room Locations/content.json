@@ -39,6 +39,12 @@
             "Default": false,
             "Section": "Vanilla Settings"
         },
+        "Remove default spouse room": {
+            "Description": "Do you want to remove the default spouse room location?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "Vanilla Settings"
+        },
 
         // SEASONAL GARDEN FARMHOUSE V2
         "Seasonal Garden Farmhouse v2": {
@@ -310,26 +316,6 @@
                     "Layer": "Front",
                     "Remove": true,
                 },
-                {
-                    "Position": { "X": 2, "Y": 1 },
-                    "Layer": "Buildings1",
-                    "Remove": true,
-                },
-                {
-                    "Position": { "X": 2, "Y": 2 },
-                    "Layer": "Buildings1",
-                    "Remove": true,
-                },
-                {
-                    "Position": { "X": 5, "Y": 1 },
-                    "Layer": "Buildings1",
-                    "Remove": true,
-                },
-                {
-                    "Position": { "X": 5, "Y": 2 },
-                    "Layer": "Buildings1",
-                    "Remove": true,
-                },
             ]
        },
        {
@@ -473,6 +459,34 @@
                 "Aimon's Tidy Cozy Farmhouse (ATC)": false,
           }
        },
+        {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_Cubby_Remove",
+          "FromFile": "assets/FarmHouse_Cubby_Remove_1.tmx",
+          "When": {
+                "Lower": true,
+                "Lower location": "left, both",
+                "Lower left count": "1",
+                "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
+          }
+        },
+        {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_Cubby_Remove",
+          "FromFile": "assets/FarmHouse_Cubby_Remove_2.tmx",
+          "When": {
+                "Lower": true,
+                "Lower location": "left, both",
+                "Lower left count": "2",
+                "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
+          }
+        },
        {
           "Action": "EditMap",
           "Target": "Maps/FarmHouse_SouthernRoom_Add",
@@ -548,6 +562,20 @@
           "ToArea": { "X": 49, "Y": 19, "Width": 1, "Height": 1 },
           "When": {
                 "Wall": true,
+                "Seasonal Garden Farmhouse v2": false,
+                "Lnh's First Farmhouse": false,
+                "Lune Farmhouse": false,
+                "Aimon's Tidy Cozy Farmhouse (ATC)": false,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+          "FromFile": "assets/FarmHouse2.tmx",
+          "FromArea": { "X": 49, "Y": 19, "Width": 8, "Height": 10 },
+          "ToArea": { "X": 49, "Y": 19, "Width": 8, "Height": 10 },
+          "When": {
+                "Remove default spouse room": true,
                 "Seasonal Garden Farmhouse v2": false,
                 "Lnh's First Farmhouse": false,
                 "Lune Farmhouse": false,

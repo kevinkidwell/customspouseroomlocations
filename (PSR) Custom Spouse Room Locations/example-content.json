@@ -2,6 +2,11 @@
 	"data": [
 
 		/*****************\
+		WHAT TO DO:
+			1. Copy this file
+			2. Rename it to content.json
+			3. Follow the information below to edit
+
 		EDITING INFORMATION
 			1. All spouse rooms are 7 blocks wide (X) and 12 blocks tall (Y)
 			2. Templated data shows the starter placement for each location that you can place a room
@@ -26,8 +31,8 @@
 				"Y": 2
 			},
 			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
+				"X": 71,
+				"Y": 5
 			},
 			"shellType": "custom_spouse_room_open_right",
 		},
@@ -56,7 +61,7 @@
 		{
 			"name": "SpouseName",
 			"startPos": {
-				"X": 48,
+				"X": 49,
 				"Y": 33
 			},
 			"spousePosOffset": {

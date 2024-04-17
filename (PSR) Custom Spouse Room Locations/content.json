@@ -20,7 +20,7 @@
 		// As many rooms to the right as you want
 		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
 		{
-			"name": "Alex",
+			"name": "Sam",
 			"startPos": {
 				"X": 68,
 				"Y": 2
@@ -30,30 +30,6 @@
 				"Y": 3
 			},
 			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Sam",
-			"startPos": {
-				"X": 75,
-				"Y": 2
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Wizard",
-			"startPos": {
-				"X": 82,
-				"Y": 2
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_closed_right",
 		},
 
 		// VANILLA
@@ -72,25 +48,13 @@
 			},
 			"shellType": "custom_spouse_room_open_left",
 		},
-		{
-			"name": "Krobus",
-			"startPos": {
-				"X": 23,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_closed_left",
-		},
 
 		// VANILLA
 		// LOWER - RIGHT
 		// As many rooms to the right as you want
 		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
 		{
-			"name": "Victor",
+			"name": "Harvey",
 			"startPos": {
 				"X": 48,
 				"Y": 33
@@ -101,84 +65,12 @@
 			},
 			"shellType": "custom_spouse_room_open_right",
 		},
-		{
-			"name": "Harvey",
-			"startPos": {
-				"X": 55,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Ian",
-			"startPos": {
-				"X": 62,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Shiro",
-			"startPos": {
-				"X": 69,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Elliott",
-			"startPos": {
-				"X": 76,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_closed_right",
-		},
-		{
-			"name": "Jeric",
-			"startPos": {
-				"X": 83,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_open_right",
-		},
-		{
-			"name": "Kenneth",
-			"startPos": {
-				"X": 90,
-				"Y": 33
-			},
-			"spousePosOffset": {
-				"X": 3,
-				"Y": 3
-			},
-			"shellType": "custom_spouse_room_closed_right",
-		},
 
 		// SEASONAL GARDEN FARMHOUSE V2
 		// MAIN FLOOR - LEFT
 		// Up to 2 rooms
 		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
-		/*{
+		{
 			"name": "Emily",
 			"startPos": {
 				"X": 8,
@@ -189,13 +81,13 @@
 				"Y": 3
 			},
 			"shellType": "custom_spouse_room_closed_left"
-		},*/
+		},
 
 		// SEASONAL GARDEN FARMHOUSE V2
 		// MAIN FLOOR - RIGHT
 		// As many rooms to the right as you want
 		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
-		/*{
+		{
 			"name": "Alex",
 			"startPos": {
 				"X": 69,
@@ -206,13 +98,13 @@
 				"Y": 3
 			},
 			"shellType": "custom_spouse_room_closed_right",
-		},*/
+		},
 
 		// SEASONAL GARDEN FARMHOUSE V2
 		// UPPER FLOOR - ATTIC
 		// Up to 2 rooms
 		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
-		/*{
+		{
 			"name": "Haley",
 			"startPos": {
 				"X": 7,
@@ -223,13 +115,13 @@
 				"Y": 3
 			},
 			"shellType": "custom_spouse_room_closed_left",
-		},*/
+		},
 
 		// SEASONAL GARDEN FARMHOUSE V2
 		// UPPER FLOOR - LARGE ROOM
 		// As many rooms to the right as you want
 		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
-		/*{
+		{
 			"name": "Elliott",
 			"startPos": {
 				"X": 69,
@@ -240,6 +132,91 @@
 				"Y": 3
 			},
 			"shellType": "custom_spouse_room_closed_right",
-		},*/
+		},
+
+		// LNH'S FIRST FARMHOUSE
+		// MAIN FLOOR
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "Shane",
+			"startPos": {
+				"X": 49,
+				"Y": 0
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right"
+		},
+
+		// LNH'S FIRST FARMHOUSE
+		// SOUTH ROOM
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "Abigail",
+			"startPos": {
+				"X": 50,
+				"Y": 92
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right"
+		},
+
+		// LNH'S FIRST FARMHOUSE
+		// SOUTHEAST ROOM - RIGHT
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "Leah",
+			"startPos": {
+				"X": 39,
+				"Y": 197
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right"
+		},
+
+		// LNH'S FIRST FARMHOUSE
+		// SOUTHEAST ROOM - UPPER LEFT
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "Maru",
+			"startPos": {
+				"X": 10,
+				"Y": 195
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left"
+		},
+
+		// LNH'S FIRST FARMHOUSE
+		// SOUTHEAST ROOM - LOWER LEFT
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "Penny",
+			"startPos": {
+				"X": 10,
+				"Y": 208
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left"
+		},
 	]
 }

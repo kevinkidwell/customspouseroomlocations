@@ -1,7 +1,7 @@
 {
   "Name": "[PSR] Custom Spouse Room Locations",
   "Author": "kevinkidwell",
-  "Version": "1.4.0",
+  "Version": "1.4.2",
   "Description": "Set the location for your custom spouse rooms",
   "UniqueID": "kevinkidwell.csrlocations_psr",
   "MinimumApiVersion": "4.0.0",

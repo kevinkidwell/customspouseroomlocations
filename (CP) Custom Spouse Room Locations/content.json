@@ -143,6 +143,32 @@
             "Default": false,
             "Section": "ATC Compatibility"
         },
+
+        // AIMON'S FANCY FARMHOUSE
+        "Aimon's Fancy Farmhouse (AFF)": {
+            "Description": "Are you using Aimon's Fancy Farmhouse?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "AFF Compatibility"
+        },
+        "AFF Main Floor Left": {
+            "Description": "Use custom location at the left side of the main floor?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "AFF Compatibility"
+        },
+        "AFF Upper Floor Left": {
+            "Description": "Use custom location at the left side of the upper floor?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "AFF Compatibility"
+        },
+        "AFF Attic Right": {
+            "Description": "Use custom location at the right side of the attic?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "AFF Compatibility"
+        },
     },
    "Changes": [
        // Vanilla map edits
@@ -806,6 +832,37 @@
           "When": {
                 "Aimon's Tidy Cozy Farmhouse (ATC)": true,
                 "ATC Right Bedroom": true,
+          },
+       },
+       // Aimon's Fancy Farmhouse
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/aff_left_1.tmx",
+          "ToArea": { "X": 15, "Y": 19, "Width": 1, "Height": 11 },
+          "When": {
+                "Aimon's Fancy Farmhouse (AFF)": true,
+                "AFF Main Floor Left": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/aff_left_2.tmx",
+          "ToArea": { "X": 15, "Y": 52, "Width": 2, "Height": 11 },
+          "When": {
+                "Aimon's Fancy Farmhouse (AFF)": true,
+                "AFF Upper Floor Left": true,
+          },
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/aff_right_1.tmx",
+          "ToArea": { "X": 34, "Y": 105, "Width": 2, "Height": 12 },
+          "When": {
+                "Aimon's Fancy Farmhouse (AFF)": true,
+                "AFF Attic Right": true,
           },
        },
    ],

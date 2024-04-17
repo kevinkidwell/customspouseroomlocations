@@ -359,5 +359,56 @@
 			},
 			"shellType": "custom_spouse_room_closed_right",
 		},
+
+		// AFF FARMHOUSE
+		// MAIN FLOOR LEFT
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 7,
+				"Y": 19
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left",
+		},
+
+		// AFF FARMHOUSE
+		// UPPER FLOOR LEFT
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 7,
+				"Y": 52
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left",
+		},
+
+		// AFF FARMHOUSE
+		// ATTIC RIGHT
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 36,
+				"Y": 105
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
+		},
 	]
 }

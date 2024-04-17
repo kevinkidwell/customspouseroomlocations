@@ -66,7 +66,6 @@
  <tileset firstgid="3767" name="sewer" tilewidth="16" tileheight="16" tilecount="88" columns="8">
   <image source=".SewerTiles.png" width="128" height="176"/>
  </tileset>
- <tileset firstgid="3855" source=".spring_sgf_v2.tsx"/>
  <layer id="1" name="Back" width="1" height="12">
   <data encoding="base64" compression="zlib">
    eJzbzskABoF8DAyOfIRpAG7/BCc=
@@ -81,7 +80,7 @@
  </objectgroup>
  <layer id="3" name="Buildings" width="1" height="12">
   <data encoding="base64" compression="zlib">
-   eJy7yMnAIMLFwDCLH0KDsCYQg4AQF0IMhBmBGABcTgKS
+   eJy7yMnAIMKFijWBGASE0MQZgRgARpsCBw==
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>

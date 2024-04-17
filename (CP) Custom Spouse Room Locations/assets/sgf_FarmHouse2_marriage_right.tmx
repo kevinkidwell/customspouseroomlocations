@@ -66,7 +66,6 @@
  <tileset firstgid="3767" name="sewer" tilewidth="16" tileheight="16" tilecount="88" columns="8">
   <image source=".SewerTiles.png" width="128" height="176"/>
  </tileset>
- <tileset firstgid="3855" source=".spring_sgf_v2.tsx"/>
  <layer id="1" name="Back" width="3" height="13">
   <data encoding="base64" compression="zlib">
    eJy7xMkABpeAtDIDAjsj4e9AuR+cENqbj4HBhw9CWwOxDZSmtjjIPQDlTg8Y
@@ -242,13 +241,13 @@
  <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Front" width="3" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYBg8IIcflQ8ACD0AfA==
+   eJxjYBi8AAAAnAAB
   </data>
  </layer>
  <objectgroup id="6" name="Front"/>
  <layer id="7" name="AlwaysFront" width="3" height="13">
   <data encoding="base64" compression="zlib">
-   eJxjYECAZZwMKACdTw6YwAnBIBDHDcE5/AwMJdwQDGLDgCM/ql4AbJYFpw==
+   eJxjYECAZZwMVAcTOCEYBOK4IRgESrghGB8AAO+RA7I=
   </data>
  </layer>
  <objectgroup id="8" name="AlwaysFront"/>

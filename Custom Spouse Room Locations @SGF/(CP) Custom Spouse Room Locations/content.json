@@ -1,0 +1,96 @@
+{
+   "Format": "2.0.0",
+   "ConfigSchema": {
+        // SEASONAL GARDEN FARMHOUSE V2
+        "Enable": {
+            "Description": "Enable the mod?",
+            "AllowValues": "true, false",
+            "Default": true,
+        },
+        "SGF Main Floor Room Location": {
+            "Description": "Where do you want your rooms to go on the main floor with Seasonal Garden Farmhouse?",
+            "AllowValues": "left, right, both, none",
+            "Default": "both",
+        },
+        "SGF Upper Floor Room Location": {
+            "Description": "Where do you want your rooms to go on the upper floor with Seasonal Garden Farmhouse?",
+            "AllowValues": "attic, large room, both, none",
+            "Default": "both",
+        },
+    },
+   "Changes": [
+       // Seasonal Garden Farmhouse Compatibility
+       {
+          "Action": "EditMap",
+          "Target": "Maps/custom_spouse_room_closed_left",
+          "FromFile": "assets/sgf_custom_spouse_room_closed_left.tmx",
+          "When": {
+                "Enable": true,
+          },
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/custom_spouse_room_closed_right",
+          "FromFile": "assets/sgf_custom_spouse_room_closed_right.tmx",
+          "When": {
+                "Enable": true,
+          },
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/custom_spouse_room_open_left",
+          "FromFile": "assets/sgf_custom_spouse_room_open_left.tmx",
+          "When": {
+                "Enable": true,
+          },
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/custom_spouse_room_open_right",
+          "FromFile": "assets/sgf_custom_spouse_room_open_right.tmx",
+          "When": {
+                "Enable": true,
+          },
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/sgf_FarmHouse2_marriage_right.tmx",
+          "ToArea": { "X": 66, "Y": 21, "Width": 3, "Height": 13 },
+          "When": {
+                "Enable": true,
+                "SGF Main Floor Room Location": "right, both",
+          },
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/sgf_FarmHouse2_marriage_left.tmx",
+          "ToArea": { "X": 16, "Y": 7, "Width": 1, "Height": 13 },
+          "When": {
+                "Enable": true,
+                "SGF Main Floor Room Location": "left, both",
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/sgf_FarmHouse2_marriage_attic.tmx",
+          "ToArea": { "X": 15, "Y": 56, "Width": 1, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "SGF Upper Floor Room Location": "attic, both",
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/sgf_FarmHouse2_marriage_large.tmx",
+          "ToArea": { "X": 68, "Y": 56, "Width": 1, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "SGF Upper Floor Room Location": "large room, both",
+          }
+       },
+   ],
+}

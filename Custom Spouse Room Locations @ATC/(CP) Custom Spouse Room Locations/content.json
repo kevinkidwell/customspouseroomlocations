@@ -1,0 +1,60 @@
+{
+   "Format": "2.0.0",
+   "ConfigSchema": {
+        // AIMON'S TIDY COZY FARMHOUSE
+        "Enable": {
+            "Description": "Enable the mod?",
+            "AllowValues": "true, false",
+            "Default": true,
+        },
+        "ATC Left Bedroom": {
+            "Description": "Use custom location next to the left bedroom?",
+            "AllowValues": "true, false",
+            "Default": false,
+        },
+        "ATC Right Bedroom": {
+            "Description": "Use custom location next to the right bedroom?",
+            "AllowValues": "true, false",
+            "Default": false,
+        },
+    },
+   "Changes": [
+       // Aimon's Tidy Cozy Farmhouse Compatibility
+       {
+          "Action": "EditMap",
+          "Target": "Maps/custom_spouse_room_closed_right",
+          "FromFile": "assets/atc_custom_spouse_room_closed_right.tmx",
+          "When": {
+                "Enable": true,
+          },
+        },
+        {
+          "Action": "EditMap",
+          "Target": "Maps/custom_spouse_room_open_right",
+          "FromFile": "assets/atc_custom_spouse_room_open_right.tmx",
+          "When": {
+                "Enable": true,
+          },
+        },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/atc_FarmHouse2_left.tmx",
+          "ToArea": { "X": 11, "Y": 18, "Width": 5, "Height": 13 },
+          "When": {
+                "Enable": true,
+                "ATC Left Bedroom": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/atc_FarmHouse2_right.tmx",
+          "ToArea": { "X": 44, "Y": 31, "Width": 2, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "ATC Right Bedroom": true,
+          },
+       },
+   ],
+}

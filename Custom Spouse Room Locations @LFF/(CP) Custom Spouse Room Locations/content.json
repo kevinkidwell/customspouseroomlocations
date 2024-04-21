@@ -1,0 +1,84 @@
+{
+   "Format": "2.0.0",
+   "ConfigSchema": {
+        // LNH'S FIRST FARMHOUSE
+        "Enable": {
+            "Description": "Enable the mod?",
+            "AllowValues": "true, false",
+            "Default": true,
+        },
+        "LNH Main Floor": {
+            "Description": "Use custom location on the Main Floor?",
+            "AllowValues": "true, false",
+            "Default": false,
+        },
+        "LNH South Room": {
+            "Description": "Use custom location on the South Room?",
+            "AllowValues": "true, false",
+            "Default": false,
+        },
+        "LNH Southeast Room Right": {
+            "Description": "Use custom location on right side of the Southeast Room?",
+            "AllowValues": "true, false",
+            "Default": false,
+        },
+        "LNH Southeast Room Left": {
+            "Description": "Where do you want your rooms to go on the left side of the Southeast Room?",
+            "AllowValues": "upper left, lower left, both, none",
+            "Default": "both",
+        },
+    },
+   "Changes": [
+       // Lnh's First Farmhouse Compatibility
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage, Maps/FarmHouse_CornerRoom_Add",
+          "FromFile": "assets/lnh_main.tmx",
+          "ToArea": { "X": 40, "Y": 0, "Width": 9, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "LNH Main Floor": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/lnh_south.tmx",
+          "ToArea": { "X": 44, "Y": 92, "Width": 6, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "LNH South Room": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/lnh_southeast_right.tmx",
+          "ToArea": { "X": 38, "Y": 197, "Width": 2, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "LNH Southeast Room Right": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/lnh_southeast_left_1.tmx",
+          "ToArea": { "X": 18, "Y": 195, "Width": 2, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "LNH Southeast Room Left": "upper left, both",
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/lnh_southeast_left_2.tmx",
+          "ToArea": { "X": 18, "Y": 208, "Width": 2, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "LNH Southeast Room Left": "lower left, both",
+          }
+       },
+   ],
+}

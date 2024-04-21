@@ -2,14 +2,14 @@
   "Name": "[PSR] Custom Spouse Room Locations",
   "Author": "kevinkidwell",
   "Version": "1.4.2",
-  "Description": "Set the location for your custom spouse rooms",
+  "Description": "Set the location for your custom spouse rooms in the Vanilla farmhouse",
   "UniqueID": "kevinkidwell.csrlocations_psr",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [ "Nexus:21525" ],
   "ContentPackFor":
     {
       "UniqueID": "ApryllForever.PolyamorySweetRooms",
-      "MinimumVersion": "1.1.0"
+      "MinimumVersion": "1.1.5"
     },
   "Dependencies": [
    {

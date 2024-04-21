@@ -1,0 +1,124 @@
+{
+	"data": [
+
+		/*****************\
+		WHAT TO DO:
+			1. Copy this file
+			2. Rename it to content.json
+			3. Follow the information below to edit
+
+		EDITING INFORMATION
+			1. All spouse rooms are 7 blocks wide (X) and 12 blocks tall (Y)
+			2. Templated data shows the starter placement for each location that you can place a room
+			3. Remove or comment out any unused placements
+
+			All placements have this layout for informational purposes:
+				// Mod name or vanilla
+				// The location of this room, corresponds to config
+				// How many rooms you can place in this location
+				// Shell templates you can use here
+		\*****************/
+
+		// LUNE FARMHOUSE
+		// UPPER ROOM
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 7,
+				"Y": 8
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left"
+		},
+
+		// LUNE FARMHOUSE
+		// KITCHEN CELLAR - SMALL
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 7,
+				"Y": 30
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left"
+		},
+
+		// LUNE FARMHOUSE
+		// KITCHEN CELLAR - LARGE
+		// Up to 2 rooms
+		// "custom_spouse_room_closed_left", "custom_spouse_room_open_left"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 7,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_left"
+		},
+
+		// LUNE FARMHOUSE
+		// UPPER RIGHT ROOM
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 61,
+				"Y": 8
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
+		},
+
+		// LUNE FARMHOUSE
+		// SOUTHERN ROOM - SMALL
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 58,
+				"Y": 30
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
+		},
+
+		// LUNE FARMHOUSE
+		// SOUTHERN ROOM - LARGE
+		// As many rooms to the right as you want
+		// "custom_spouse_room_closed_right", "custom_spouse_room_open_right"
+		{
+			"name": "SpouseName",
+			"startPos": {
+				"X": 58,
+				"Y": 33
+			},
+			"spousePosOffset": {
+				"X": 3,
+				"Y": 3
+			},
+			"shellType": "custom_spouse_room_closed_right",
+		},
+	]
+}

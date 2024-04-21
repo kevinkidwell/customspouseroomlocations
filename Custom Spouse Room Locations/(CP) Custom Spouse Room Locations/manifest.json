@@ -1,0 +1,20 @@
+﻿{
+  "Name": "[CP] Custom Spouse Room Locations",
+  "Author": "kevinkidwell",
+  "Version": "1.4.2",
+  "Description": "Edit the Vanilla farmhouse map to allow for new spouse room locations",
+  "UniqueID": "kevinkidwell.csrlocations_cp",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:21525" ],
+  "ContentPackFor":
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.0.0"
+    },
+  "Dependencies": [
+    {
+      "UniqueID": "ApryllForever.PolyamorySweetRooms",
+      "IsRequired": false,
+   },
+  ]
+}

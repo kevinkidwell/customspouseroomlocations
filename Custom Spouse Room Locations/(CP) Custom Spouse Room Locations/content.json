@@ -1,0 +1,448 @@
+{
+   "Format": "2.0.0",
+   "ConfigSchema": {
+
+        // VANILLA
+        "Enable": {
+            "Description": "Enable the mod?",
+            "AllowValues": "true, false",
+            "Default": true,
+        },
+        "Lower": {
+            "Description": "Are you placing a spouse room in the lower level of the house?",
+            "AllowValues": "true,false",
+            "Default": false,
+            "Section": "Lower Settings"
+        },
+        "Lower location": {
+            "Description": "Where are you placing rooms on the lower level of the house?",
+            "AllowValues": "both, left, right, none",
+            "Default": "both",
+            "Section": "Lower Settings"
+        },
+        "Lower left count": {
+            "Description": "How many rooms in the lower left?",
+            "AllowValues": "0, 1, 2",
+            "Default": "1",
+            "Section": "Lower Settings"
+        },
+        "Upper": {
+            "Description": "Are you placing a spouse room in the upper level of the house?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "Upper Settings"
+        },
+        "Remove Upper Room Nook": {
+            "Description": "Do you want to remove the nook from the expanded corner room?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "Upper Settings"
+        },
+        "Wall": {
+            "Description": "Fix the upper wall connection with default spouse room location?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "Other Settings"
+        },
+        "Remove default spouse room": {
+            "Description": "Do you want to remove the default spouse room location?",
+            "AllowValues": "true, false",
+            "Default": false,
+            "Section": "Other Settings"
+        },
+    },
+   "Changes": [
+       // Vanilla map edits
+       {
+          "Action": "EditMap",
+          "Target": "Maps/custom_spouse_room_closed_left",
+          "FromFile": "assets/custom_spouse_room_closed_left.tmx",
+          "When": {
+                "Enable": true,
+          },
+          "MapTiles": [
+                {
+                    "Position": { "X": 2, "Y": 1 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 2, "Y": 2 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 5, "Y": 1 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 5, "Y": 2 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 2, "Y": 1 },
+                    "Layer": "Buildings1",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 2, "Y": 2 },
+                    "Layer": "Buildings1",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 5, "Y": 1 },
+                    "Layer": "Buildings1",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 5, "Y": 2 },
+                    "Layer": "Buildings1",
+                    "Remove": true,
+                },
+            ]
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/custom_spouse_room_closed_right",
+          "FromFile": "assets/custom_spouse_room_closed_right.tmx",
+          "When": {
+                "Enable": true,
+          },
+          "MapTiles": [
+                {
+                    "Position": { "X": 2, "Y": 1 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 2, "Y": 2 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 5, "Y": 1 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 5, "Y": 2 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 2, "Y": 1 },
+                    "Layer": "AlwaysFront",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 2, "Y": 2 },
+                    "Layer": "AlwaysFront",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 5, "Y": 1 },
+                    "Layer": "AlwaysFront",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 5, "Y": 2 },
+                    "Layer": "AlwaysFront",
+                    "Remove": true,
+                },
+            ]
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/custom_spouse_room_open_left",
+          "FromFile": "assets/custom_spouse_room_open_left.tmx",
+          "When": {
+                "Enable": true,
+          },
+          "MapTiles": [
+                {
+                    "Position": { "X": 2, "Y": 1 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 2, "Y": 2 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 5, "Y": 1 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 5, "Y": 2 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+            ]
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/custom_spouse_room_open_right",
+          "FromFile": "assets/custom_spouse_room_open_right.tmx",
+          "When": {
+            "Enable": true,
+          },
+          "MapTiles": [
+                {
+                    "Position": { "X": 2, "Y": 1 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 2, "Y": 2 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 5, "Y": 1 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 5, "Y": 2 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+            ]
+       },
+       {
+        "Action": "EditMap",
+            "Target": "Maps/FarmHouse_Cubby_Add",
+            "MapTiles": [
+                {
+                    "Position": { "X": 29, "Y": 34 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 29, "Y": 34 },
+                    "Layer": "Buildings",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 29, "Y": 34 },
+                    "Layer": "Back",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 30, "Y": 34 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 30, "Y": 34 },
+                    "Layer": "Buildings",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 30, "Y": 34 },
+                    "Layer": "Back",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 31, "Y": 34 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 31, "Y": 34 },
+                    "Layer": "Buildings",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 31, "Y": 34 },
+                    "Layer": "Back",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 32, "Y": 34 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 32, "Y": 34 },
+                    "Layer": "Buildings",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 32, "Y": 34 },
+                    "Layer": "Back",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 33, "Y": 34 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 33, "Y": 34 },
+                    "Layer": "Buildings",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 33, "Y": 34 },
+                    "Layer": "Back",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 34, "Y": 34 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 34, "Y": 34 },
+                    "Layer": "Buildings",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 34, "Y": 34 },
+                    "Layer": "Back",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 35, "Y": 34 },
+                    "Layer": "Front",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 35, "Y": 34 },
+                    "Layer": "Buildings",
+                    "Remove": true,
+                },
+                {
+                    "Position": { "X": 35, "Y": 34 },
+                    "Layer": "Back",
+                    "Remove": true,
+                },
+            ]
+        },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_Cubby_Add",
+          "FromFile": "assets/FarmHouse_Cubby_Add_1.tmx",
+          "ToArea": { "X": 29, "Y": 32, "Width": 7, "Height": 2 },
+          "When": {
+                "Lower": true,
+                "Lower location": "left, both",
+                "Lower left count": "1",
+                "Enable": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_Cubby_Add",
+          "FromFile": "assets/FarmHouse_Cubby_Add_2.tmx",
+          "ToArea": { "X": 29, "Y": 32, "Width": 7, "Height": 2 },
+          "When": {
+                "Lower": true,
+                "Lower location": "left, both",
+                "Lower left count": "2",
+                "Enable": true,
+          }
+       },
+        {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_Cubby_Remove",
+          "FromFile": "assets/FarmHouse_Cubby_Remove_1.tmx",
+          "When": {
+                "Lower": true,
+                "Lower location": "left, both",
+                "Lower left count": "1",
+                "Enable": true,
+          }
+        },
+        {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_Cubby_Remove",
+          "FromFile": "assets/FarmHouse_Cubby_Remove_2.tmx",
+          "When": {
+                "Lower": true,
+                "Lower location": "left, both",
+                "Lower left count": "2",
+                "Enable": true,
+          }
+        },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_SouthernRoom_Add",
+          "FromFile": "assets/FarmHouse_SouthernRoom_Add_left.tmx",
+          "ToArea": { "X": 37, "Y": 32, "Width": 2, "Height": 13 },
+          "When": {
+                "Lower": true,
+                "Lower location": "left, both",
+                "Enable": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_SouthernRoom_Add",
+          "FromFile": "assets/FarmHouse_SouthernRoom_Add_right.tmx",
+          "ToArea": { "X": 48, "Y": 32, "Width": 2, "Height": 13 },
+          "When": {
+                "Lower": true,
+                "Lower location": "right, both",
+                "Enable": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_ExtendedCornerRoom_Add",
+          "FromFile": "assets/FarmHouse_ExtendedCornerRoom_Add_2.tmx",
+          "ToArea": { "X": 54, "Y": 18, "Width": 10, "Height": 2 },
+          "When": {
+                "Enable": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_ExtendedCornerRoom_Add",
+          "FromFile": "assets/FarmHouse_ExtendedCornerRoom_Add_1.tmx",
+          "ToArea": { "X": 63, "Y": 2, "Width": 5, "Height": 12 },
+          "When": {
+                "Upper": true,
+                "Remove Upper Room Nook": false,
+                "Enable": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_ExtendedCornerRoom_Add",
+          "FromFile": "assets/FarmHouse_ExtendedCornerRoom_Add_3.tmx",
+          "ToArea": { "X": 63, "Y": 2, "Width": 5, "Height": 12 },
+          "When": {
+                "Upper": true,
+                "Remove Upper Room Nook": true,
+                "Enable": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse_CornerRoom_Add",
+          "FromFile": "assets/FarmHouse_CornerRoom_Add.tmx",
+          "ToArea": { "X": 49, "Y": 19, "Width": 1, "Height": 1 },
+          "When": {
+                "Wall": true,
+                "Enable": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+          "FromFile": "assets/FarmHouse2.tmx",
+          "FromArea": { "X": 49, "Y": 19, "Width": 8, "Height": 10 },
+          "ToArea": { "X": 49, "Y": 19, "Width": 8, "Height": 10 },
+          "When": {
+                "Remove default spouse room": true,
+                "Enable": true,
+          }
+       },
+   ],
+}

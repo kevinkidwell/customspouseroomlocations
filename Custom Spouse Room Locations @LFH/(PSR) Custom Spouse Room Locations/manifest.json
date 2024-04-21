@@ -1,0 +1,24 @@
+{
+  "Name": "[PSR] Custom Spouse Room Locations - Lune FarmHouse",
+  "Author": "kevinkidwell",
+  "Version": "2.0.0",
+  "Description": "Set the location for your custom spouse rooms within Lune FarmHouse",
+  "UniqueID": "kevinkidwell.csrlocations_psr@LFH",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:21525@LFH" ],
+  "ContentPackFor":
+    {
+      "UniqueID": "ApryllForever.PolyamorySweetRooms",
+      "MinimumVersion": "1.1.5"
+    },
+  "Dependencies": [
+   {
+      "UniqueID": "ApryllForever.PolyamorySweetRooms",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "Lu.B17.LuneFarmhouse",
+      "IsRequired": true
+   },
+  ]
+}

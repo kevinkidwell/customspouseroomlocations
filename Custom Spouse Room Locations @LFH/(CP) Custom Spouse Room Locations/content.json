@@ -1,0 +1,93 @@
+{
+   "Format": "2.0.0",
+   "ConfigSchema": {
+        // LUNE FARMHOUSE
+        "Enable": {
+            "Description": "Enable the mod?",
+            "AllowValues": "true, false",
+            "Default": true,
+        },
+        "Lune Farmhouse Size": {
+            "Description": "What size of the farmhouse are you using?",
+            "AllowValues": "small, large",
+            "Default": "small",
+        },
+        "Lune Left Room Location": {
+            "Description": "Where do you want to use custom rooms on the left side of the farmhouse?",
+            "AllowValues": "upper room, kitchen cellar, both, none",
+            "Default": "both",
+        },
+        "Lune Right Room Location": {
+            "Description": "Where do you want to use custom rooms on the right side of the farmhouse?",
+            "AllowValues": "upper right room, southern room, both, none",
+            "Default": "both",
+        },
+    },
+   "Changes": [
+       // Lune Farmhouse Compatibility
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/lune_FarmHouse2_left_1.tmx",
+          "ToArea": { "X": 14, "Y": 8, "Width": 3, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "Lune Left Room Location": "upper room, both",
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/lune_FarmHouse2_left_2.tmx",
+          "ToArea": { "X": 15, "Y": 30, "Width": 2, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "Lune Farmhouse Size": "small",
+                "Lune Left Room Location": "kitchen cellar, both",
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/lune_FarmHouse2_left_3.tmx",
+          "ToArea": { "X": 15, "Y": 33, "Width": 8, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "Lune Farmhouse Size": "large",
+                "Lune Left Room Location": "kitchen cellar, both",
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/lune_FarmHouse2_right_1.tmx",
+          "ToArea": { "X": 58, "Y": 8, "Width": 3, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "Lune Right Room Location": "upper right room, both",
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/lune_FarmHouse2_right_2.tmx",
+          "ToArea": { "X": 56, "Y": 30, "Width": 4, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "Lune Farmhouse Size": "small",
+                "Lune Right Room Location": "southern room, both",
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/lune_FarmHouse2_right_2.tmx",
+          "ToArea": { "X": 56, "Y": 33, "Width": 4, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "Lune Farmhouse Size": "large",
+                "Lune Right Room Location": "southern room, both",
+          }
+       },
+   ],
+}

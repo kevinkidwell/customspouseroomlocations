@@ -1,10 +1,11 @@
-# Custom Spouse Room Locations
+# Custom Spouse Room Locations - Lune FarmHouse Compatibility
 A mod for Stardew Valley 1.6+
 
 This mod was inspired by [Split Spouse Rooms](https://www.nexusmods.com/stardewvalley/mods/17699) that I used before 1.6 and my absolute need to move my spouse rooms around.
 
 ## Details:
-- Make sure you download the version that corresponds to the farmhouse mod you are using, if any.
+- Manifest Key: @LFH
+- Requires [Lune FarmHouse](https://www.nexusmods.com/stardewvalley/mods/17627)
 
 ---
 
@@ -37,17 +38,6 @@ This mod was inspired by [Split Spouse Rooms](https://www.nexusmods.com/stardewv
 
 ---
 
-## Compatibility:
-
-This mod has been updated to be compatible with the following mods:
-- [Lnh's First Farmhouse](https://www.nexusmods.com/stardewvalley/mods/17526) - @LFF
-- [Seasonal Garden Farmhouse v2](https://www.nexusmods.com/stardewvalley/mods/17386) - @SGF
-- [Lune FarmHouse](https://www.nexusmods.com/stardewvalley/mods/17627) - @LFH
-- [Aimon's Tidy Cozy Farmhouse](https://www.nexusmods.com/stardewvalley/mods/16438) - @ATC
-- [Aimon's Fancy Farmhouse](https://www.nexusmods.com/stardewvalley/mods/14411) - @AFF
-
----
-
 ## How to Edit:
 1. Open the [PSR] Custom Spouse Room Locations folder
 2. Find the example-content.json file
@@ -57,8 +47,7 @@ This mod has been updated to be compatible with the following mods:
 ### General information:  
 1. All spouse rooms are 7 blocks wide (X) and 12 blocks tall (Y)
 2. Templated data shows the starter placement for each location that you can place a room
-3. If you are using farmhouse mods, look for that section to see the starting positions for your specific modded room locations
-4. Remove or comment out any unused placements
+3. Remove or comment out any unused placements
 
 ### Placement Information:  
 All placements have this layout for informational purposes:  
@@ -91,24 +80,6 @@ All placements have this layout for informational purposes:
 
 ### Starting Position Variables: 
 ```
-Vanilla:
-    Upper: X:68, Y:2
-    Lower Right: X:49, Y:33
-    Lower Left: X:30, Y:33
-
-Seasonal Garden Farmhouse v2:
-    Attic: X:7, Y:56
-    Large Room: X:69, Y:56
-    Main Floor Left: X:8, Y:8
-    Main Floor Right: X:69, Y:21
-
-Lnh's First Farmhouse:
-    Main Floor: X:49, Y:0
-    South Room: X:50, Y:92
-    Southeast Room Right: X:39, Y:197
-    Southeast Room Upper Left: X:10, Y:195
-    Southeast Room Lower Left: X:10, Y:208
-
 Lune FarmHouse:
     Upper Room: X:7, Y:8
     Kitchen Cellar - Small: X:7, Y:30
@@ -116,58 +87,22 @@ Lune FarmHouse:
     Upper Right Room: X:61, Y:8
     Southern Room - Small: X:58, Y:30
     Southern Room - Large: X:58, Y:33
-
-Aimon's Tidy Cozy Farmhouse:
-    Left bedroom: X:7, Y:19
-    Right bedroom: X:46, Y:32
-  
-Aimon's Fancy Farmhouse:
-    Main Floor Left: X:7, Y:19
-    Upper Floor Left: X:7, Y:52
-    Attic Right: X:36, Y:105
 ```
 
 ### Shell Type Variables:
 ```
 custom_spouse_room_open_right:
-    Vanilla: Lower right or Upper, with another spouse room to the right of it.
-    SGFv2: Large room or Main Floor Right, with another spouse room to the right of it.
-    LNH: Main Floor, South Room, Southeast Room Right, with another spouse room to the right of it.
     Lune: Upper Right Room, Southern Room - Small, Southern Room - Large, with another spouse room to the right of it.
-    ATC: Right bedroom, with another spouse room to the right of it.
-    AFF: Attic Right, with another spouse room to the right of it.
 
 custom_spouse_room_closed_right:
-    Vanilla: Lower right or Upper, AND it's the only or last spouse room in the row.
-    SGFv2: Large Room or Main Floor Right, AND it's the only or last spouse room in the row.
-    LNH: Main Floor, South Room, Southeast Room Right,  AND it's the only or last spouse room in the row.
     Lune: Upper Right Room, Southern Room - Small, Southern Room - Large,  AND it's the only or last spouse room in the row.
-    ATC: Right bedroom, AND it's the only or last spouse room in the row.
-    AFF: Attic Right, AND it's the only or last spouse room in the row.
 
 custom_spouse_room_open_left:
-    Vanilla: Lower left, with another room to the left of it.
-    SGFv2: Attic or Main Floor Left, with another room to the left of it.
-    LNH: Southeast Room Upper Left or Southeast Room Lower Left, with another room to the left of it.
     Lune: Upper Room, Kitchen Cellar - Small, Kitchen Cellar - Large, with another room to the left of it.
-    ATC: Left bedroom, with another room to the left of it.
-    AFF: Main Floor Left or Upper Floor Left, with another room to the left of it.
 
 custom_spouse_room_closed_left:
-    Vanilla: Lower left, AND it's the only or last spouse room in the row.
-    SGFv2: Attic or Main Floor Left, AND it's the only or last spouse room in the row.
-    LNH: Southeast Room Upper Left or Southeast Room Lower Left, AND it's the only or last spouse room.
     Lune: Upper Room, Kitchen Cellar - Small, Kitchen Cellar - Large,  AND it's the only or last spouse room in the row.
-    ATC: Left bedroom, AND it's the only or last spouse room in the row.
-    AFF: Main Floor Left or Upper Floor Left, AND it's the only or last spouse room in the row.
 ```
----
-
-## Notes:
-- This was created primarily for my personal use and so may have some bugs. Let me know if you find any and I'm willing to try and fix them!
-- This is intended for the fully upgraded farmhouse (including Southern Room and Expanded Upper Room, with edits for Cubby) but may work as long as you only have one of those sections. Compatibility for other mods may be added in the future.
-
-
 ---
 
 ## Get in Touch:

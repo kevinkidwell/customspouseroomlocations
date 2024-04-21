@@ -1,0 +1,59 @@
+{
+   "Format": "2.0.0",
+   "ConfigSchema": {
+        // AIMON'S FANCY FARMHOUSE
+        "Enable": {
+            "Description": "Enable the mod?",
+            "AllowValues": "true, false",
+            "Default": true,
+        },
+        "AFF Main Floor Left": {
+            "Description": "Use custom location at the left side of the main floor?",
+            "AllowValues": "true, false",
+            "Default": false,
+        },
+        "AFF Upper Floor Left": {
+            "Description": "Use custom location at the left side of the upper floor?",
+            "AllowValues": "true, false",
+            "Default": false,
+        },
+        "AFF Attic Right": {
+            "Description": "Use custom location at the right side of the attic?",
+            "AllowValues": "true, false",
+            "Default": false,
+        },
+    },
+   "Changes": [
+       // Aimon's Fancy Farmhouse
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/aff_left_1.tmx",
+          "ToArea": { "X": 15, "Y": 19, "Width": 1, "Height": 11 },
+          "When": {
+                "Enable": true,
+                "AFF Main Floor Left": true,
+          }
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/aff_left_2.tmx",
+          "ToArea": { "X": 15, "Y": 52, "Width": 2, "Height": 11 },
+          "When": {
+                "Enable": true,
+                "AFF Upper Floor Left": true,
+          },
+       },
+       {
+          "Action": "EditMap",
+          "Target": "Maps/FarmHouse2_marriage",
+          "FromFile": "assets/aff_right_1.tmx",
+          "ToArea": { "X": 34, "Y": 105, "Width": 2, "Height": 12 },
+          "When": {
+                "Enable": true,
+                "AFF Attic Right": true,
+          },
+       },
+   ],
+}

@@ -1,0 +1,28 @@
+﻿{
+  "Name": "[CP] Custom Spouse Room Locations - Seasonal Garden Farmhouse",
+  "Author": "kevinkidwell",
+  "Version": "2.0.0",
+  "Description": "Edit the map in Seasonal Garden Farmhouse to allow for new spouse room locations",
+  "UniqueID": "kevinkidwell.csrlocations_cp@SGF",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:21525@SGF" ],
+  "ContentPackFor":
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.0.0"
+    },
+  "Dependencies": [
+    {
+      "UniqueID": "ApryllForever.PolyamorySweetRooms",
+      "IsRequired": false,
+   },
+   {
+      "UniqueID": "DustBeauty.SeasonalGardernFarmhouse.v2",
+      "IsRequired": true
+   },
+   {
+      "UniqueID": "CF.FarmhouseFixes",
+      "IsRequired": false,
+    },
+  ]
+}

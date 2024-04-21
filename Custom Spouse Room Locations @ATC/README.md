@@ -82,7 +82,7 @@ All placements have this layout for informational purposes:
 ```
 Aimon's Tidy Cozy Farmhouse:
     Left bedroom: X:7, Y:19
-    Right bedroom: X:46, Y:32
+    Right bedroom: X:46, Y:31
 ```
 
 ### Shell Type Variables:

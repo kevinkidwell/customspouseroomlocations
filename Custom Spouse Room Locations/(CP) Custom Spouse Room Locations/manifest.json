@@ -1,7 +1,7 @@
 ﻿{
   "Name": "[CP] Custom Spouse Room Locations",
   "Author": "kevinkidwell",
-  "Version": "2.0.0",
+  "Version": "2.0.1",
   "Description": "Edit the Vanilla farmhouse map to allow for new spouse room locations",
   "UniqueID": "kevinkidwell.csrlocations_cp",
   "MinimumApiVersion": "4.0.0",

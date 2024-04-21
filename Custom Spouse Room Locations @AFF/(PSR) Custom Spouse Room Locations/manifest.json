@@ -1,7 +1,7 @@
 {
   "Name": "[PSR] Custom Spouse Room Locations - Aimon's Fancy Farmhouse",
   "Author": "kevinkidwell",
-  "Version": "2.0.0",
+  "Version": "2.0.1",
   "Description": "Set the location for your custom spouse rooms within Aimon's Fancy Farmhouse",
   "UniqueID": "kevinkidwell.csrlocations_psr@AFF",
   "MinimumApiVersion": "4.0.0",

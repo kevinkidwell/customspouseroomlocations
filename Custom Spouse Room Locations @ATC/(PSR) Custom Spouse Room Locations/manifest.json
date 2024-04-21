@@ -1,7 +1,7 @@
 {
   "Name": "[PSR] Custom Spouse Room Locations - Aimon's Tidy Cozy Farmhouse",
   "Author": "kevinkidwell",
-  "Version": "2.0.0",
+  "Version": "2.0.1",
   "Description": "Set the location for your custom spouse rooms within Aimon's Tidy Cozy Farmhouse",
   "UniqueID": "kevinkidwell.csrlocations_psr@ATC",
   "MinimumApiVersion": "4.0.0",

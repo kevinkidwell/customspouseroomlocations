@@ -1,7 +1,7 @@
 {
   "Name": "[PSR] Custom Spouse Room Locations",
   "Author": "kevinkidwell",
-  "Version": "2.0.0",
+  "Version": "2.0.1",
   "Description": "Set the location for your custom spouse rooms in the Vanilla farmhouse",
   "UniqueID": "kevinkidwell.csrlocations_psr",
   "MinimumApiVersion": "4.0.0",

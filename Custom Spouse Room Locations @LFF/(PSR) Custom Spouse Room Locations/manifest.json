@@ -1,9 +1,9 @@
 {
   "Name": "[PSR] Custom Spouse Room Locations - Lnh's First Farmhouse",
   "Author": "kevinkidwell",
-  "Version": "2.0.1",
+  "Version": "2.0.2",
   "Description": "Set the location for your custom spouse rooms within Lnh's First Farmhouse",
-  "UniqueID": "kevinkidwell.csrlocations_psr@LFF",
+  "UniqueID": "kevinkidwell.csrlocations_psr_LFF",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [ "Nexus:21525@LFF" ],
   "ContentPackFor":

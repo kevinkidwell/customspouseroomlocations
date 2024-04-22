@@ -1,9 +1,9 @@
 {
   "Name": "[PSR] Custom Spouse Room Locations - Seasonal Garden Farmhouse",
   "Author": "kevinkidwell",
-  "Version": "2.0.1",
+  "Version": "2.0.2",
   "Description": "Set the location for your custom spouse rooms within Seasonal Garden Farmhouse",
-  "UniqueID": "kevinkidwell.csrlocations_psr@SGF",
+  "UniqueID": "kevinkidwell.csrlocations_psr_SGF",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [ "Nexus:21525@SGF" ],
   "ContentPackFor":

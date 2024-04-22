@@ -1,9 +1,9 @@
 ﻿{
   "Name": "[CP] Custom Spouse Room Locations - Seasonal Garden Farmhouse",
   "Author": "kevinkidwell",
-  "Version": "2.0.1",
+  "Version": "2.0.2",
   "Description": "Edit the map in Seasonal Garden Farmhouse to allow for new spouse room locations",
-  "UniqueID": "kevinkidwell.csrlocations_cp@SGF",
+  "UniqueID": "kevinkidwell.csrlocations_cp_SGF",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": [ "Nexus:21525@SGF" ],
   "ContentPackFor":
